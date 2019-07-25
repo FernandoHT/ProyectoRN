@@ -19,7 +19,7 @@ steps:
   displayName: 'Install dependecies'
 
 - script: npm run lint
-  displayName: 'Run Lint'
+  displayName: 'Run lint'
 
 - script: npm run test
   displayName: 'Run unit tests'
