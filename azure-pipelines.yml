@@ -18,8 +18,5 @@ steps:
 - script: npm install
   displayName: 'Install dependecies'
 
-- script: npm run lint
-  displayName: 'Run lint'
-
 - script: npm run test
   displayName: 'Run unit tests'
